@@ -1,0 +1,61 @@
+html {
+background-color:  #e0e4e0 !important;
+  }
+body {
+padding-top: 10px;
+font-size: 16px;
+background: transparent;
+}
+    ul li {
+  color: limegreen;
+         list-style-type: disc;
+  margin-left: 2em;
+    }
+
+
+ul li span {
+  color: black;
+}
+
+    #chatWindow{
+        display:none;
+    }
+
+ .whisper{
+  /* color:	#0e492d;*/
+   color: #845422;
+   font-style:italic;
+   font-weight: bold;
+ }
+
+ .error{
+   color:#800000;
+ }
+.select-text {
+  margin: 0 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#chatWrap {
+  border-radius: 10px;
+  background: #F0E0B0;
+  background: url(/images/chat-background.png);
+  min-height: 400px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+.my-msg {
+  color: green;
+}
+.msg {
+  border-bottom-style: groove;
+  border-bottom-color: currentColor;
+  margin: 0 26px;
+}
+.whisper.my-msg {
+  color: red;
+}
+.private-back {
+  background-color: lavender;
+  margin: 0 26px;
+}
